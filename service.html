@@ -49,45 +49,6 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0 top-header">
-      <div class="row gx-0 d-none d-lg-flex">
-        <div class="col-lg-7 px-5 text-start">
-          <div
-            class="h-100 d-inline-flex align-items-center border-start border-end px-3"
-          >
-            <small class="fa fa-phone-alt me-2"></small>
-            <small class="header-text">+971 502176843</small>
-          </div>
-          <div class="h-100 d-inline-flex align-items-center border-end px-3">
-            <small class="far fa-envelope-open me-2"></small>
-            <small class="header-text">abin@theomnishield.com</small>
-          </div>
-          <div class="h-100 d-inline-flex align-items-center border-end px-3">
-            <small class="far fa-clock me-2"></small>
-            <small class="header-text">Mon - Fri : 09 AM - 09 PM</small>
-          </div>
-        </div>
-        <div class="col-lg-5 px-5 text-end">
-          <div class="h-100 d-inline-flex align-items-center">
-            <a class="btn btn-square border-end border-start" href=""
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-square border-end" href=""
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="btn btn-square border-end" href=""
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="btn btn-square border-end" href=""
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Topbar End -->
-
     <!-- Navbar Start -->
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
@@ -107,7 +68,7 @@
         <div class="navbar-nav ms-auto py-3 py-lg-0">
           <a href="index.html" class="nav-item nav-link active">Home</a>
           <a href="about.html" class="nav-item nav-link">About Us</a>
-          <a href="service.html" class="nav-item nav-link">Our Services</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
           <div class="nav-item dropdown">
             <a
               href="#"
@@ -135,25 +96,87 @@
       data-wow-delay="0.1s"
     >
       <div class="container text-center py-5">
-        <h1 class="display-4 text-white animated slideInDown mb-4">
-          Our Services
-        </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-          <ol class="breadcrumb justify-content-center mb-0">
-            <li class="breadcrumb-item">
-              <a class="text-white" href="#">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="text-white" href="#">Pages</a>
-            </li>
-            <li class="breadcrumb-item text-primary active" aria-current="page">
-              Our Services
-            </li>
-          </ol>
-        </nav>
+        <h4 class="display-4 text-white animated slideInDown mb-4">
+          Services we provide
+        </h4>
       </div>
     </div>
     <!-- Page Header End -->
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4 service-bab-border-right">
+          <button class="tab-button active" data-tab="ai">Omni Care</button>
+          <button class="tab-button" data-tab="app">
+            Cyber Security Services
+          </button>
+          <button class="tab-button" data-tab="cloud">
+            Governance, Regulatory & Compliance
+          </button>
+
+          <button class="tab-button" data-tab="eng">
+            Application Development
+          </button>
+          <button class="tab-button" data-tab="cyber">
+            Cross-Platform App Development
+          </button>
+        </div>
+
+        <div class="col-md-8">
+          <div id="ai" class="tab-content-item active">
+            <div class="service-box">
+              Virtual CISO / CISO-as-a-service <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              Virtual Data Protection Officer / Data Privacy & Data Protection
+              (UAE PDPL)
+              <span class="arrow">→</span>
+            </div>
+          </div>
+          <div id="app" class="tab-content-item">
+            <div class="service-box">
+              Web Application
+              <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              Mobile Application
+              <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              Block Chain
+              <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              Artificial Intelligence Pen test
+              <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              Offensive Security
+              <span class="arrow">→</span>
+            </div>
+          </div>
+          <div id="cloud" class="tab-content-item">
+            <div class="service-box">
+              (ADHICS) ABU DHABI HEALTHCARE INFORMATION AND CYBER SECURITY
+              STANDARD <span class="arrow">→</span>
+            </div>
+            <div class="service-box">
+              CB UAE NESA <span class="arrow">→</span>
+            </div>
+          </div>
+          <div id="cyber" class="tab-content-item">
+            <div class="service-box">
+              Threat Detection <span class="arrow">→</span>
+            </div>
+          </div>
+          <div id="eng" class="tab-content-item">
+            <div class="service-box">
+              Product Engineering <span class="arrow">→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
@@ -162,9 +185,6 @@
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="border-start border-5 border-primary ps-4">
               <h6 class="text-body text-uppercase mb-2">Our Services</h6>
-              <h1 class="display-6 mb-0">
-                Construction And Renovation Solutions
-              </h1>
             </div>
           </div>
           <div class="col-lg-6 text-lg-end wow fadeInUp" data-wow-delay="0.3s">
@@ -267,94 +287,6 @@
     </div>
     <!-- Service End -->
 
-    <!-- Appointment Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="border-start border-5 border-primary ps-4 mb-5">
-              <h6 class="text-body text-uppercase mb-2">Appointment</h6>
-              <h1 class="display-6 mb-0">
-                A Company Involved In Service And Maintenance
-              </h1>
-            </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
-            </p>
-          </div>
-          <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <form>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="gname"
-                      placeholder="Gurdian Name"
-                    />
-                    <label for="gname">Your Name</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="email"
-                      class="form-control bg-light border-0"
-                      id="gmail"
-                      placeholder="Gurdian Email"
-                    />
-                    <label for="gmail">Your Email</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="cname"
-                      placeholder="Child Name"
-                    />
-                    <label for="cname">Your Mobile</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="cage"
-                      placeholder="Child Age"
-                    />
-                    <label for="cage">Service Type</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-floating">
-                    <textarea
-                      class="form-control bg-light border-0"
-                      placeholder="Leave a message here"
-                      id="message"
-                      style="height: 100px"
-                    ></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
-                    Get Appointment
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Appointment End -->
-
     <!-- Footer Start -->
     <div
       class="container-fluid footer mt-5 pt-5 wow fadeIn"
@@ -398,7 +330,7 @@
             <h4 class="text-light mb-4">Quick Links</h4>
             <a class="btn btn-link" href="">About Us</a>
             <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
+            <a class="btn btn-link" href="">Services</a>
             <a class="btn btn-link" href="">Terms & Condition</a>
             <a class="btn btn-link" href="">Support</a>
           </div>
