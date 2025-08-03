@@ -284,6 +284,9 @@ button.footer-signup {
     height: 3rem;
     border-width: 12px;
   }
+  .service-box {
+    width: calc(100% - 0.5rem);
+  }
 }
 
 .page-header {
