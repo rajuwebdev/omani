@@ -461,3 +461,25 @@ p {
 .footer h4.text-light.mb-4 {
   color: #444 !important;
 }
+/* Make navbar fixed and animate slide */
+.animated-navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1055;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Animate collapse menu */
+@media (max-width: 991.98px) {
+  .mobile-slide.collapse:not(.show) {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background: #f8f8f8;
+  }
+}
