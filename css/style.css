@@ -255,8 +255,8 @@ button.footer-signup {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   background-color: var(--bs-green);
   border: 15px solid var(--bs-green);
   border-radius: 50px;
