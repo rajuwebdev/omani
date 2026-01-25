@@ -23,12 +23,16 @@ body {
 #spinner {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
+  transition:
+    opacity 0.5s ease-out,
+    visibility 0s linear 0.5s;
   z-index: 99999;
 }
 
 #spinner.show {
-  transition: opacity 0.5s ease-out, visibility 0s linear 0s;
+  transition:
+    opacity 0.5s ease-out,
+    visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
 }
@@ -291,7 +295,8 @@ button.footer-signup {
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
@@ -357,7 +362,8 @@ button.footer-signup {
 
 /*** Appointment ***/
 .appointment {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(../img/carousel-2.jpg) center center no-repeat;
   background-size: cover;
 }
@@ -599,6 +605,11 @@ p {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 0;
+}
+.marketing-Strategies-imag {
+  max-width: 150px;
+  max-height: 150px;
+  width: 100%;
 }
 
 /* Responsive adjustments */
