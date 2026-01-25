@@ -611,6 +611,11 @@ p {
   max-height: 150px;
   width: 100%;
 }
+.testimonial-home {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* Responsive adjustments */
 @media (max-width: 992px) {
