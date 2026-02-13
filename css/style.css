@@ -653,6 +653,28 @@ p {
   }
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 95px; /* moved up so it won't overlap back-to-top */
+  right: 22px;
+  background: #25d366;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px; /* smaller icon */
+  line-height: 40px;
+  z-index: 9999;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  color: #fff;
+  transform: scale(1.08);
+}
+
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .banner-container-service {
